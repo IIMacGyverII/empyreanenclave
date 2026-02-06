@@ -28,6 +28,7 @@
           <a href="#portfolio">Portfolio</a>
           <a href="#process">Process</a>
           <a href="#about">About</a>
+          <a href="#payments">Payments</a>
           <a href="#contact" class="btn btn-outline">Book a Session</a>
         </div>
         <button class="menu-toggle" aria-label="Open menu">
@@ -263,6 +264,58 @@
             <p>
               From indie artists to global campaigns, we scale to every story without losing craft.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="payments" class="section">
+        <div class="section-header">
+          <h2>Online payment portal</h2>
+          <p>
+            Secure payments powered by Square. Use the button below to pay an invoice or deposit.
+          </p>
+        </div>
+        <div class="payment-grid">
+          <div class="payment-card">
+            <h3>Pay with Square</h3>
+            <p>
+              Click to open our Square checkout. You can pay by card, Apple Pay, or Google Pay.
+            </p>
+            <a
+              class="btn"
+              href="https://square.link/u/REPLACE_WITH_YOUR_LINK"
+              target="_blank"
+              rel="noopener"
+            >
+              Open Square Checkout
+            </a>
+            <p class="form-note">
+              Replace the link with your Square payment link (e.g., https://square.link/u/xxxxx).
+            </p>
+          </div>
+          <div class="payment-card alt">
+            <h3>Invoice details</h3>
+            <p>Optional details to include with your payment.</p>
+            <form class="payment-form">
+              <div class="field">
+                <label for="invoice-name">Full Name</label>
+                <input id="invoice-name" type="text" placeholder="Your name" />
+              </div>
+              <div class="field">
+                <label for="invoice-email">Email Address</label>
+                <input id="invoice-email" type="email" placeholder="you@email.com" />
+              </div>
+              <div class="field">
+                <label for="invoice-number">Invoice #</label>
+                <input id="invoice-number" type="text" placeholder="RN-2026-001" />
+              </div>
+              <div class="field">
+                <label for="invoice-note">Notes</label>
+                <textarea id="invoice-note" rows="3" placeholder="Project or session details"></textarea>
+              </div>
+              <button type="submit" class="btn btn-ghost">Save Details</button>
+              <p class="form-note">This form is for notes only and does not process payment.</p>
+            </form>
           </div>
         </div>
       </section>
